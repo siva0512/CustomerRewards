@@ -1,2 +1,1 @@
-# CustomerRewards
-Get Customer Rewards API
+# RewardsProgram
