@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "ff965045-28e8-4a19-a70f-fde63568aeea",
+		"name": "Rewards",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetRewards",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/rewards/get?customerId=siva&startDate=17012022000000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rewards",
+						"get"
+					],
+					"query": [
+						{
+							"key": "customerId",
+							"value": "siva"
+						},
+						{
+							"key": "startDate",
+							"value": "17012022000000"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
